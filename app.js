@@ -17,6 +17,4 @@ app.get('/login', (req,res)=>{
     res.sendFile(path.join(__dirname,"views/login.html"))
 })
 
-app.listen(PORT, () => console.log(`El servidor esta escuchando en el
-puerto ${PORT}
-http://localhost:${PORT}`));
+app.listen (PORT, () => console.log('servidor corriendo en http://localhost:' + PORT ))
